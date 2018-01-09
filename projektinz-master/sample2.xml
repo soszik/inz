@@ -1,0 +1,21 @@
+<xml>
+
+
+<root>
+
+
+<scene groupCount="4" size="27" z="0" y="0" x="0" type="Tunnel">
+
+<audio path="audio/1kHz_44100Hz_16bit_30sec" id="1"/>
+
+<audio path="audio/10kHz_44100Hz_16bit_30sec" id="2"/>
+
+<puzzle name="Czesc1KolorB-Skybox"> </puzzle>
+
+<puzzle name="Czesc2KolorB-Skybox"/>
+
+</scene>
+
+</root>
+
+</xml>

@@ -1,0 +1,18 @@
+<xml>
+  <root>
+  <scene type="tunnel" x="7" y="7" z="7">
+    <puzzle name="Czesc1Pref">
+      <file path="path" type="ring"/>
+      <file path="path2" type="ring" />
+      <part id="jeden" type="ring" />
+
+      <part id="dwa" type="crossover" />
+    </puzzle>
+
+    <part>
+
+    </part>
+
+  </scene>
+</root>
+</xml>

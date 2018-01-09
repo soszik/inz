@@ -1,0 +1,51 @@
+<xml>
+  <root>
+  <scene type="horiz" x="0" y="0" z="0" size="27" groupCount="4">
+	<audio id="1" path="audio/1kHz_44100Hz_16bit_30sec" />
+	<audio id="2" path="audio/10kHz_44100Hz_16bit_30sec" />
+    <puzzle name="horSt">
+    </puzzle>
+	
+	<smallObject name="cilinderKolor" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="200,200,200"  pulsationAmplitudeMin="100,100,100"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3" group="1" bezierSpeed = "5000"
+		>
+		<bezierPoint x="1.0" y="1.0" z="3.3" />
+		<bezierPoint x="4.0" y="1.0" z="3.3" />
+		<bezierPoint x="1.0" y="1.0" z="3.3" />
+		<bezierPoint x="4.0" y="1.0" z="3.3" />
+	</smallObject>
+		<smallObject name="kula" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="200,200,200"  pulsationAmplitudeMin="100,100,100"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3" group="2" bezierSpeed = "5000"
+		>
+		<bezierPoint x="5.0" y="1.0" z="3.3" />
+		<bezierPoint x="2.0" y="1.0" z="3.3" />
+		<bezierPoint x="3.0" y="1.0" z="3.3" />
+		<bezierPoint x="4.0" y="1.0" z="3.3" />
+		</smallObject>
+		<smallObject name="kostka" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="200,200,200"  pulsationAmplitudeMin="100,100,100"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3" group="3" bezierSpeed = "5000"
+		>
+		<bezierPoint x="3.0" y="1.0" z="3.3" />
+		<bezierPoint x="4.0" y="1.0" z="3.3" />
+		<bezierPoint x="5.0" y="1.0" z="3.3" />
+		<bezierPoint x="4.0" y="1.0" z="3.3" />
+		</smallObject>
+		<smallObject name="torus" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="200,200,200"  pulsationAmplitudeMin="100,100,100"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3" group="3" bezierSpeed = "5000"
+		>
+		<bezierPoint x="6.0" y="1.0" z="3.3" />
+		<bezierPoint x="5.0" y="1.0" z="3.3" />
+		<bezierPoint x="3.0" y="1.0" z="3.3" />
+		<bezierPoint x="2.0" y="1.0" z="3.3" />
+		</smallObject>
+	</scene>
+</root>
+</xml>

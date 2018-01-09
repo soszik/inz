@@ -1,0 +1,44 @@
+<xml>
+  <root>
+  <scene type="tunnel" x="7" y="7" z="7" size="7">
+  <puzzle>
+      <file path="prefabs/Czesc3Pref" type="puzzle3"/>
+      <part id="trzy" type="puzzle3"
+		    x="20" y="30" z="10" scale="3"/>
+      <file path="smallObjects/smallCilinder" type="smallCilinder" />
+      <smallObject id="small1" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="2,2,2"  pulsationAmplitudeMin="1,1,1"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3"
+		>
+		<bezierPoint x="1.0" y="2.0" z="3.3" />
+		<bezierPoint x="4.0" y="4.0" z="3.3" />
+		</smallObject>
+		 <smallObject id="small2" type="smallCilinder" vibrating="false" pulsation="true" rotate="false" 
+        pulsationFrequency="2.5,1.0,4.0"  pulsationAmplitudeMax="2,2,2"  pulsationAmplitudeMin="1,1,1"   
+        rotationSpeed="1,2,1" rotationMax="4,2,3" rotationMin="1,1,1" rotationDir="1,-1,1"    
+		scale="3"
+		>
+		<bezierPoint x="8.0" y="2.0" z="3.3" />
+		<bezierPoint x="4.0" y="4.0" z="3.3" />
+		</smallObject>
+    </puzzle>
+    <puzzle name="Czesc1Pref">
+      <file path="prefabs/Czesc1Pref" type="puzzle1"/>
+      <part id="jeden" type="puzzle1"
+        x="10" y="10" z="10" scale="3"/>
+      <part id="jedenDwa" type="puzzle1"
+        x="10" y="10" z="10" scale="3"/>
+	  <file path="prefabs/cylinderKolor" type="ring" />
+	  <ring id="ring1" type = "ring" right="true" speed="4" createNext="false"
+		dir="Down" placement="4,5,8" group="1" scale="3"/>
+    </puzzle>
+    <puzzle name="Czesc2Pref">
+      <file path="prefabs/Czesc2Pref" type="puzzle2" />
+      <part id="dwa" type="puzzle2"
+		    x="30" y="20" z="10" scale="3"/>
+    </puzzle>
+    
+  </scene>
+</root>
+</xml>

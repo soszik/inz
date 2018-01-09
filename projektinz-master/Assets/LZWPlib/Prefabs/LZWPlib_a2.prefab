@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1624795506721080}
+  m_IsPrefabParent: 1
+--- !u!1 &1624795506721080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4103174396123684}
+  - component: {fileID: 114512022831560140}
+  - component: {fileID: 114935174296372542}
+  - component: {fileID: 114474091073362822}
+  - component: {fileID: 114980382206477416}
+  - component: {fileID: 148601473780546280}
+  m_Layer: 0
+  m_Name: LZWPlib_a2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4103174396123684
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114474091073362822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -512634143, guid: a49787cd101764b4baf9e3fa15b42c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  swapEyes: 0
+  eyeSeparation: 0.05
+--- !u!114 &114512022831560140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 537388965, guid: a49787cd101764b4baf9e3fa15b42c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: a2
+  editor: 1
+  standalone: 0
+  isServer: 0
+  cursorVisible: 0
+  runInFullscreen: 1
+  targetFrameRate: -1
+  vSyncCount: 0
+  room: {fileID: 0}
+  renderingEyes: []
+--- !u!114 &114935174296372542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 484717058, guid: a49787cd101764b4baf9e3fa15b42c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverIP: 127.0.0.1
+  port: 54321
+  sendRate: 120
+  quitOnDisconnection: 1
+  maxConnectionTries: 5
+--- !u!114 &114980382206477416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 989957868, guid: a49787cd101764b4baf9e3fa15b42c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTrackingSystem: 0
+  trackingServerIP: 127.0.0.1
+  trackingEnabled: 1
+  dataPort: 5000
+  glassesCorrection: {x: 0, y: 0, z: 0}
+  glassesCount: 0
+  flysticksCount: 0
+  simulateWithKeyboard: 0
+--- !u!148 &148601473780546280
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624795506721080}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 4103174396123684}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
